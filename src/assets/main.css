@@ -1,0 +1,136 @@
+a span {
+  font-size: 16px;
+  color: #9896A1;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+a:hover span, a:focus span {
+  border-bottom: 4px solid #7445FB;
+  color: #0A041C;
+}
+.active-link {
+  border-bottom: 4px solid #7445FB;
+  color: #0A041C;
+  font-weight: 500;
+}
+
+.text-muted {
+  color: #9896A1 !important;
+}
+.text-success {
+  color: #2DC78F !important;
+}
+.text-danger {
+  color: #EA4D4D !important;
+}
+
+.bg-light {
+  background: #F7F7F9 !important;
+}
+
+.btn-light {
+  background: #FFFFFF !important;
+  color: #7445FB !important;
+  border: 1px solid #EBEBF3 !important;
+}
+.btn-light:hover {
+  background: #FAFAFF !important;
+  color: #7445FB !important;
+}
+.btn-purple {
+  background: #7445FB !important;
+  color: #FFFFFF !important;
+}
+.btn-purple:hover {
+  background: #593FA7 !important;
+  color: #FFFFFF !important;
+}
+.btn-purple, .btn-light {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-input {
+  height: 48px;
+  background: #F7F7F9;
+  text-indent: 30px;
+  border-radius: 8px;
+  border-style: none;
+}
+@media (min-width: 576px) {
+  .search-input {
+    width: 232px;
+  }
+}
+
+.search-icon {
+  position: absolute;
+  color: #9896A1;
+  top: 45px;
+  left: 15px;
+}
+.nav-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: #F7F7F9;
+  border-style: none;
+}
+.icon-border {
+  border: 1px solid #EBEBF3;
+  width: 48px;
+  height: 48px;
+}
+
+.h-line {
+  height: 1px;
+  background: #EBEBF3;
+  margin: 0px 0px 0px 16px;
+}
+.sparkline {
+  fill: transparent;
+  transition: all 1s ease-in-out;
+}
+.sparkline-up {
+  stroke: #2DC78F;
+}
+.sparkline-down {
+  stroke: #EA4D4D;
+}
+
+.rounded-big {
+  border-radius: 16px;
+}
+.rounded-top-big {
+  border-top-right-radius: 16px !important;
+  border-top-left-radius: 16px !important;
+}
+.rounded-bottom-big {
+  border-bottom-right-radius: 16px !important;
+  border-bottom-left-radius: 16px !important;
+}
+
+.table {
+  border-spacing: 0px 8px;
+  border-collapse: separate;
+}
+.tr-height {
+  height: 80px;
+}
+.td-first {
+  width: 80px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.td-last {
+  width: 200px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.td-other {
+  width: 200px;
+}
