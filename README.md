@@ -1,5 +1,7 @@
 # crypto-app
 
+/* The application downloads and displays current cryptocurrency quotes using the API. Application made in JavaScript and Vue 3 framework */
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
